@@ -4,13 +4,10 @@
 }
 .row2{
 	height:72px;
-	border:solid black 1px;
 	
 }
 .row2_col1{
 	height:72px;
-	width:;
-	border:solid black 1px;
 	padding:0px 0px 0px 80px;
 }
 .logo{
@@ -18,12 +15,11 @@
 	width:60px;
 	float:left;
 	margin-top:5px;
-	border:solid black 1px;
 
 }
 
 .text{
-	border:solid black 1px;
+
 	height:48px;
 	width:131px;
 	float:left;
@@ -33,11 +29,11 @@
 }
 .row3{
 	height:20px;
-	border:solid black 1px;
+
 }
 .row4{
 	height:40px;
-	border:solid black 1px;
+
 }
 .row5{
 	height:30px;
@@ -54,19 +50,17 @@
 	border:solid black 1px;
 	
 }
-.box{
-	height:2986px;
+.movie_row{
+	height:277px;
 	width:960px;
-	border:solid black 1px;
-	margin:auto;	
+	margin:auto;
+	border:solid black 1px;	
 }
 .row7{
 	height:40px;
-	border:solid black 1px;
 }
 .row8{
 	height:30px;
-	border:solid black 1px;
 	
 }
 .row8col{
@@ -103,29 +97,32 @@
 .row2_col1{
 	height:72px;
 	width:285px;
-	border:solid black 1px;
 }
 .row2_col2{
 	width:186px;
 	height:30px;
 	float:right;
 	margin-top:-52px;
-	border:solid black 1px;
 }
 .co-col1{
 	width:56px;
 	height:30px;
-	border:solid black 1px;
 	float:left;
 	
 }
 .co-col2{
 	width:85px;
 	height:30px;
-	border:solid black 1px;
+
 	float:left;
 	margin-left:43px;
 	
+}
+.delete{
+	width:26px;
+	height:29px;
+	float:right;
+	border:solid black 1px;
 }
 .text{
 	padding:0px 0px 0px 0px;
@@ -197,8 +194,8 @@
 .image{
 	height:252px;
 	width:200px;
-
 	float:left;
+	border:1px solid black;
 }
 .details{
 	float:left;
@@ -207,17 +204,26 @@
 	margin-left:20px;
 	
 }
+.movie_data{
+	height:155px;
+	border:1px solid black;
+}
+.Description{
+	height:95px;
+	border:1px solid black;
+}
 .main{
 	height:40px;
-	border:solid black 1px;
-	width:738px;
-	margin-top:78px;
+	width:728;
+	margin-top:58px;
+	border:1px solid black;
 
 }
 .col_1{
-	width:121px;
+	width:116;
+	float:left;
 	height:40px;
-	border:solid black 1px;
+	border:1px solid black;
 	
 
 }
@@ -225,13 +231,18 @@
 	height:32px;
 	width:32px;
 	float:left;
-	margin-top:3px;
 }
 .count{
 	height:40px;
 	width:40px;
 	float:left;
-	margin-left:15px
+	padding:8px 14px 0px 14px;
 	
+}
+.delete{
+	height:28px;
+	width:26px;
+	border:1px solid black;
+
 }
 

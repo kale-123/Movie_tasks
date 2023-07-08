@@ -1,36 +1,28 @@
 
-const Movie_row=(props)=>{
+import Action from "./Action.js"
+const Movie_data=(props)=>{
 	return (
 		<div className="movie_row">
 			<div className="image">
-				<img src={props.movie_image}/>
+				<img src="image 1.png"/>
 			</div>
 			<div className="details">
-				<h1>{props.Movie_Name}</h1>
-				<p>{props.Year+"|"+props.time+"|"+props.Gender}</p>
-				<h2>Description</h2>
-				<p>{props.description}</p>
-				<div className="main">
-					<div className="col_1">
-						<div className="like">
-							<img src="Vector.png"/>
-						</div>
-						<div className="count">
-							<h3>{props.count}</h3>
-						</div>
-						<div className="like">
-							<img src="Vector.png"/>
-						</div>
-						
-					
+				<div className="movie_data">
+					<h1>{props.data.Movie_Name}</h1>
+					<p>{props.data.Movie_Year+"|"+props.data.Movie_Year+"|"+props.data.Gender}</p>
+					<div className="Description">
+						<h1>Description</h1>
+						<p>{props.data.Description}</p>
 					</div>
-					
 				</div>
+				<Action />
 			</div>
+			
+	
 		</div>
 	);
 };
 
-export default Movie_row;
+export default Movie_data;
 
 

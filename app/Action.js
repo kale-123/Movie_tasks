@@ -1,14 +1,6 @@
-
-const Onclick=()=>{
-	const [count,setCount]=useState(0)
-	function discresed(){
-		setCount(count-=1)
-	}
-	function increament(){
-		setCount(count+=1)
-	}
-	
-
+"use client"
+import React, { useState } from 'react';
+const Action=()=>{
 	return(
 		<div className="main">
 					<div className="col_1">
@@ -19,7 +11,7 @@ const Onclick=()=>{
 						</div>
 						<div className="count">
 							<span>
-								{count}
+								{0}
 							</span>
 						</div>
 						<div className="like">
@@ -34,7 +26,8 @@ const Onclick=()=>{
 							</button>
 					</div>
 					
-				</div>
+		</div>
 	);	
 }
-export default Onclick
+export default Action;
+
