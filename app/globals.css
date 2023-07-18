@@ -221,25 +221,67 @@ body{
 	height:44px;
 	margin-top:64px;
 	margin-left:64px;
-	border:solid 1px white;
+
 }
 .heading{
 	width:510px;
 	height:44px;
-    border:solid 1px white;
     float:left;
 }
 .back{
 	height:44px;
-	border:solid 1px white;
 	float:right;
+}
+.back_button{
+    height:20px;
+    width:20px;
+    margin-top:20px;
 }
 .movie_name{
     height:44px;
     width:510px;
     margin-top:64px;
     margin-left:64px;
-    
-    border:solid 1px white;
-
 }
+.movie_duration{
+    height:68px;
+    width:307px;
+    margin-top:64px;
+    margin-left:64px;
+    
+}
+.inputbox{
+    height:20px;
+    width:40px;
+}
+.moviegenre{
+    height:234px;
+    width:197px;
+    margin-top:64px;
+    margin-left:64px;
+    border:solid 1px white;
+}
+.movie_discription{
+    width:613px;
+    height:199px;
+        margin-top:64px;
+    margin-left:64px;
+}
+.Description{
+    height:171px;
+    width:613px;
+}
+
+.upload_Movie{
+    height:80px;
+    width:205px;
+    margin-top:64px;
+    margin-left:64px;
+	border:solid 1px white;
+}
+.upload{
+    height:44px;
+    width:129px;
+    margin-top:10px;
+}
+

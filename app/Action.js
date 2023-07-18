@@ -7,7 +7,7 @@ const Action=(props)=>{
 		<div className="rating_row">
 			<div className="rating_col">
 				<div className="like">
-					<button onClick={()=>props.sortArray(props.data)}>
+					<button onClick={()=>props.like_sortArray(props.data)}>
 						<img src="like.png"/>
 					</button>
 				</div>
@@ -17,7 +17,7 @@ const Action=(props)=>{
 					</div>
 				</div>
 				<div className="dislike">
-					<button onClick={()=>props.sortArray(props.data)}>
+					<button onClick={()=>props.dislike_sortArray(props.data)}>
 						<img src="dislike.png"/>
 					</button>
 				</div>	

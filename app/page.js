@@ -9,12 +9,18 @@ import Form from "./form.js"
 
 const Page=()=>{
 	const [movies_data,setMovies_data]=useState(Movie_list)
-	const sortArray=(data,vote)=>{
+	const like_sortArray=(data)=>{
 	    data.rating+=1
 	    const newArray=[...movies_data]
         newArray.sort((a, b) => b.rating - a.rating);
         setMovies_data(newArray)  
 	}
+	const dislike_sortArray=(data)=>{
+	    data.rating-=1
+	    const newArray=[...movies_data]
+        newArray.sort((a, b) => b.rating - a.rating);
+        setMovies_data(newArray)  
+	}	
 
 	function handleDelete(moviedata){
 		const movie_data=movies_data.filter((movie)=>moviedata.movie_Name!=movie.movie_Name);
@@ -30,7 +36,8 @@ const Page=()=>{
         		<Movie_row 
         			data={item} 
         			handleDelete= {()=>handleDelete(item)}
-        			sortArray={sortArray}
+        			like_sortArray={like_sortArray}
+        			dislike_sortArray={dislike_sortArray}
         		/>
         	))}
         	<Footer/>
