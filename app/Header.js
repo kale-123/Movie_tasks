@@ -12,7 +12,6 @@ const Header = () => {
     			<div className="text">
     				<h2>Movie Hub</h2>
     			</div>
-    			
     		</div>	
 
     		<div className="row2_col2">

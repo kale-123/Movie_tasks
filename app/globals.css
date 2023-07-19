@@ -210,12 +210,12 @@ body{
 	margin-top:10px;
 }
 
-
 .form_box{
 	width:960px;
 	height:1247px;
 	margin:auto;
 	border:solid 1px white;
+	color:blue;
 }
 .heading_row{
 	height:44px;
@@ -250,16 +250,17 @@ body{
     margin-left:64px;
     
 }
-.inputbox{
-    height:20px;
-    width:40px;
-}
+
 .moviegenre{
     height:234px;
     width:197px;
     margin-top:64px;
     margin-left:64px;
     border:solid 1px white;
+}
+.inputGenre{
+    height:207px;
+    width:188px;
 }
 .movie_discription{
     width:613px;
