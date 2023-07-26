@@ -1,15 +1,10 @@
-"use client"
-import React, { useState } from 'react';
-
 const Action=(props)=>{
 
 	return(
 		<div className="rating_row">
 			<div className="rating_col">
 				<div className="like">
-					<button onClick={()=>props.like_sortArray(props.data)}>
-						<img src="like.png"/>
-					</button>
+				    <img onClick={props.like_sortArray} src="like.png"/>
 				</div>
 				<div className="count">
 					<div className="count_1">
@@ -17,16 +12,12 @@ const Action=(props)=>{
 					</div>
 				</div>
 				<div className="dislike">
-					<button onClick={()=>props.dislike_sortArray(props.data)}>
-						<img src="dislike.png"/>
-					</button>
+				    <img onClick={props.dislike_sortArray} src="dislike.png"/>
 				</div>	
 			</div>
 			
 			<div className="delete">
-				<button onClick={props.handleDelete}>
-					<img src="delete.png"/>
-				</button>
+				<img onClick={props.handleDelete} src="delete.png"/>
 			</div>
 		</div>
 	);	

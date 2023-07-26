@@ -1,15 +1,16 @@
 import Action from "./Action.js"
+
 const Movie_row=(props)=>{
 	return (
 		<div className="movie_row">
 			<div className="Movie_image">
-				<img src="Brave.png"/>
+				<img src={props.data.image}/>
 			</div>
 			
 			<div className="Movie_details">
 				<div className="details">
-					<h2>{props.data.movie_Name}</h2>
-					<p>{props.data.movie_Year+"|"+props.data.movie_Time+"|"+props.data.movie_Type}</p>
+					<h2>{props.data.image}</h2>
+					<p>{props.data.movie_Year+"|"+props.data.movie_duration+"|"+props.data.genre}</p>
 					<p>{props.data.description}</p>
 				</div>
 				<Action {...props} />

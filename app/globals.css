@@ -135,7 +135,7 @@ body{
 	height:10px;
 	width:10px;
 	margin:auto;
-	margin-top:10px;
+	margin-top:5px;
 	
 
 }
@@ -212,7 +212,7 @@ body{
 
 .form_box{
 	width:960px;
-	height:1247px;
+	height:1310px;
 	margin:auto;
 	border:solid 1px white;
 	color:blue;
@@ -265,7 +265,7 @@ body{
 .movie_discription{
     width:613px;
     height:199px;
-        margin-top:64px;
+    margin-top:64px;
     margin-left:64px;
 }
 .Description{
@@ -281,8 +281,22 @@ body{
 	border:solid 1px white;
 }
 .upload{
+    height:80px;
+    width:205px;
     height:44px;
     width:129px;
     margin-top:10px;
 }
-
+.add_Movie{
+    height:64px;
+    width:190px;
+    margin-top:64px;
+    margin-left:64px;
+    border:solid 1px white;
+}
+.addmovie{
+    margin:auto;
+    height:20px;
+    width:94px;
+    margin-top:20px;
+}
